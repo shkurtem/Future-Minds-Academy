@@ -1,0 +1,24 @@
+    h1{
+    background-color: blue;
+    
+    color: rgb(22, 22, 110);}   
+
+   
+    .Morina{
+
+    background-color: green; color: bisque;
+    }
+    #FMA{
+        background:rgb(174, 149, 197) ;color: rgb(117, 111, 101);
+    }
+    .fontSize5{
+        font-size: 5rem;
+    }
+    button{
+        background-color: rgb(226, 204, 247);
+color: rgb(79, 67, 90);    }
+#button{background-color: brown; color: blanchedalmond;}
+
+.h2{background: palevioletred; color: brown;}
+.h4{background-color: blanchedalmond; color: blue;}
+.h6{background-color: ;}
