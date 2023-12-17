@@ -1,0 +1,11 @@
+#title {
+    color: #592520;
+}
+body{
+    background-image: url(wallpaper.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+    background-size: cover;
+    
+}
