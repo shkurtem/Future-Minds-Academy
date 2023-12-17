@@ -1,0 +1,10 @@
+p {
+    width:  200px;
+}
+.even{
+    background-color: black;
+    color: white;
+}
+.odd{
+    background-color: yellow;
+}
