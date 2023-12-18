@@ -1,4 +1,9 @@
-#p1{ font-family: 'Dancing Script', cursive;
-font-family: 'DM Serif Display', serif;
-font-family: 'Source Code Pro', monospace;
+
+
+.card1{
+    font-family: Courier New;
+
+}
+.card2{ 
+    font-family: Gill Sans;
 }
