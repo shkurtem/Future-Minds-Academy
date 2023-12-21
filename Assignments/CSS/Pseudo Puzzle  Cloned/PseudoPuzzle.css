@@ -1,5 +1,7 @@
-p::first-letter
+
+p:hover::first-letter
 {
     float: left;
 font-size: 60px;
 }
+p:hover {background-color: blue;}
