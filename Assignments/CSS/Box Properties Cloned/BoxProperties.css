@@ -14,5 +14,6 @@ width: 400px;
 .image  { 
         position:relative; 
         float: left; 
+        margin: 10px;
        }
        
