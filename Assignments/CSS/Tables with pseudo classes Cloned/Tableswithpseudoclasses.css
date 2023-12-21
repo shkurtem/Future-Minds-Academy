@@ -7,3 +7,7 @@ background-color: green;
 .tablee:nth-child(even){
     background: green;
 }
+
+.textWhite{
+    color: white;
+}
