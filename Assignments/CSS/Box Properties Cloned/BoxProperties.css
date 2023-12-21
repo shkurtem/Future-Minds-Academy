@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+  }
+p{
+    width: 300px;
+    background-color: rgb(174, 208, 231);
+    padding: 20px;
+border: 5px solid rgb(62, 117, 189);
+width: 400px;
+} 
+image :last-child
+ 
