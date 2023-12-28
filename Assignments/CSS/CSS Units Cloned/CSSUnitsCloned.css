@@ -1,0 +1,11 @@
+.card h1{
+text-decoration: underline;
+}
+.card hr{
+border: 1px solid red;
+width: 30%;
+}
+.card section:nth-child(odd) { 
+background-color: black;
+color: white;
+}
