@@ -3,15 +3,19 @@ h1 {
     top: -13px;
     left: 10px;
     
-}  
- h3 {
+}
+
+ h3
+  {
+    float: inline-end;
     border: 2px solid black;
+    border-radius:30px ;
     position:relative;
     top: -20px;
-   border-radius: 30%;
-   width: 70%;
-   height: 90%;
-    display: inline-block;
+    left: 390%;
+   width: 150%;
+   height: 150%;  
+   margin-left: 1em;
 }
 p{ 
     text-align: center;
@@ -95,6 +99,5 @@ width: 20%;
     left: 70%;
     width: 350px;
     height: 300px;
-    
     
  }
