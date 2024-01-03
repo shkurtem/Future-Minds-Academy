@@ -23,8 +23,7 @@ color: white;
 }
 
 nav { 
-    color: white;
-    background-color: rgba(90, 73, 185, 0.795);
+    background-color: rgba(29, 19, 88, 0.63);
     text-align: center;
     position: relative;
     left: 35%;
@@ -45,4 +44,14 @@ p{ padding: 20px;
 .card2{
    background-color: rgba(45, 45, 97, 0.788);
 padding: 40px;
+}
+.card3{
+    background-color: rgba(33, 33, 117, 0.822);
+}
+
+.card4{
+    background-color: rgba(26, 26, 77, 0.774);
+}
+footer {
+    background-color: black;
 }
