@@ -53,5 +53,6 @@ padding: 40px;
     background-color: rgba(26, 26, 77, 0.774);
 }
 footer {
-    background-color: black;
+    background-color: white;
+    color:black
 }
