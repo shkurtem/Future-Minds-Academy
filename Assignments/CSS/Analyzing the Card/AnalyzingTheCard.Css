@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 2em;
+    background-color: rgb(249, 161, 176);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.card {
+    -webkit-box-shadow: 10px 10px 21px -7px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 10px 10px 21px -7px rgba(0, 0, 0, 1);
+    box-shadow: 10px 10px 21px -7px rgba(0, 0, 0, 1);
+    width: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2em 1em 2em 1em;
+    display: flex;
+    gap: 1em;
+
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: space-between;
+}
+
+img {
+    width: 250px;
+    align-self: center;
+}
+
+.sizes-container {
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    color: rgb(249, 161, 176);
+    gap: 0.2em;
+}
+
+.sizes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.size-label {
+    text-transform: uppercase;
+}
+
+.size {
+    flex-grow: 0;
+    width: 1.8em;
+    height: 1.8em;
+    border: 1px solid rgb(249, 161, 176);
+    font-size: 1.1em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size:hover {
+    color: white;
+    background-color: rgb(249, 161, 176);
+}
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-category {
+    text-transform: uppercase;
+    color: rgb(249, 161, 176);
+    font-size: 0.8em;
+}
+
+.product-title {
+    text-transform: uppercase;
+    color: black;
+    font-size: 2em;
+}
+
+.product-price {
+    color: rgb(249, 161, 176);
+    font-size: 2.5em;
+}
+
+.product-description {
+    text-align: start;
+    line-break: anywhere;
+    flex-grow: 2;
+    word-spacing: 5px;
+}
+
+.finalize {
+    display: flex;
+    gap: 5px;
+}
+
+.add-to-cart-button,
+.dropdown-button {
+    text-transform: uppercase;
+    background-color: rgb(249, 161, 176);
+    border-radius: unset;
+    border: none;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 0 0.5em 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add-to-cart-button {
+    flex-grow: 1;
+}
+
+.dropdown-button {
+    padding: 0.5em;
+}
