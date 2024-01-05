@@ -1,0 +1,26 @@
+body {
+    /* These are the basic properties to remov the margin and pading
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container{
+    /* These are the basic properties */
+    background-color: rgb(169, 169, 169);
+    margin: 1em;
+    padding: 1em;
+    border: solid black;
+    /* THESE ARE THE BASIC PROPERTIES */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.flex-child {
+    /* These are the basic properties */
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 1em;
+    color: white;
+}
