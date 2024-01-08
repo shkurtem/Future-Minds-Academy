@@ -1,19 +1,16 @@
 body {
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
 }
 
 .container {
     background-color: rgb(125, 105, 225);
     color: rgb(17, 12, 45);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: solid black;
-    position: absolute;
-    top: 30%;
-    right: 41.5%;
+
 
 }
