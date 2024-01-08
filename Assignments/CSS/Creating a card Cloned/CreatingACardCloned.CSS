@@ -1,6 +1,9 @@
 body {
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .container {
@@ -19,6 +22,10 @@ body {
     justify-content: center;
     flex-direction: column;
 
+}
+
+.margin0 {
+    margin: 0;
 }
 
 .card {
