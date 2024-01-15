@@ -1,15 +1,43 @@
-body {
+* {
     padding: 0;
     margin: 0;
 }
 
-.CardHeader {
-    display: flex;
-    align-items: center;
+.container {
+    height: 100vh;
 }
 
-.container {
-    background: #4164b7;
+.dflex {
+    display: flex;
+
+}
+
+aside {
+    padding: 40px;
+    width: 15vw;
+    background: #464b78;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: end;
-    justify-content: end;
+}
+
+.flexDirectionColumn {
+    flex-direction: column;
+}
+
+.AlignitemsEnd {
+    align-items: end;
+}
+
+main {
+    width: 85vw;
+}
+
+.CardButton {
+    background-color: transparent;
+    padding: 5px 15px;
+    border: 2px solid white;
+
 }
