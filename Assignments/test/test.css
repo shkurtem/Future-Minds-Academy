@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(197, 135, 255);
+}
+
+nav {
+    display: flex;
+    background-color: purple;
+    gap: 15px;
+}
+
+img {
+    margin: 0.5em 0 0.5em 1em;
+    width: 2.8em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:not(:last-child) {
+    border-right: 1px dashed rgb(198, 83, 198);
+
+}
