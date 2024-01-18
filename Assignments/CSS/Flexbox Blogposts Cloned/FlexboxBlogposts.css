@@ -12,6 +12,8 @@
 
 }
 
+
+
 aside {
     padding: 40px;
     width: 15vw;
@@ -31,13 +33,59 @@ aside {
     align-items: end;
 }
 
+.Alignitems {
+    align-items: center;
+}
+
 main {
     width: 85vw;
+    padding: 60px;
 }
 
 .CardButton {
     background-color: transparent;
     padding: 5px 15px;
     border: 2px solid white;
+
+}
+
+.SpaceBtw {
+    justify-content: space-between;
+}
+
+img {
+    border-radius: 50%;
+
+
+}
+
+.margin0 {
+    margin: 10px 0px;
+}
+
+.bgblue {
+    background-color: blue;
+    padding: 5px;
+    color: white;
+}
+
+.bggreen {
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+
+.bgred {
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+
+.color {
+    color: #0daceb;
+}
+
+.margin50 {
+    margin: 50px 0px;
 
 }
