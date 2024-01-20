@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    height: 100vh;
+}
+
+header {
+    background: #ffdcdc;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+
+}
+
+section {
+    background: gray;
+    color: #ffffff;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.Left {
+    background: greenyellow;
+}
+
+.Right {
+    background: red;
+}
+
+footer {
+    background: #000;
+    color: #ffffff;
+}
