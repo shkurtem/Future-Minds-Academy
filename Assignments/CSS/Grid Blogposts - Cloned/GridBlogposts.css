@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+}
+
+.container {
+    height: 100vh;
+
+}
+
+.dgrid {
+    display: grid;
+
+}
+
+.gridrow {
+    grid-row: 2 / 3;
+}
+
+
+aside {
+    padding: 40px;
+    width: 15vw;
+    background: #464b78;
+    color: white;
+    display: grid;
+    text-align: end;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.gridcolumn {
+    display: grid;
+    grid-template-columns: 3fr 0fr 0fr;
+    align-items: center;
+
+}
+
+main {
+    padding: 60px;
+}
+
+.CardButton {
+    background-color: transparent;
+    padding: 5px 15px;
+    border: 2px solid white;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+.bgblue {
+    background-color: blue;
+    padding: 5px;
+    color: white;
+}
+
+.bggreen {
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+
+.bgred {
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+
+.color {
+    color: #0daceb;
+}
+
+.margin0 {
+    margin: 10px 0px;
+}
+
+.margin50 {
+    margin: 50px 0px;
+
+}
