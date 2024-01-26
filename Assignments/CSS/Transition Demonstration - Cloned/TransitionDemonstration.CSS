@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: rgb(188, 188, 188);
+    border: 2px solid black;
+    cursor: pointer;
+    transition-property: background-color, transform;
+    transition-duration: 0.4s, 0.1s;
+    transition-timing-function: ease-in;
+}
+
+button:hover {
+    background-color: rgb(100, 165, 255);
+    color: white;
+    transform: scale(1.2);
+}
