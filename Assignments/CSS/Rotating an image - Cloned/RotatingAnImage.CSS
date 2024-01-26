@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.FMA {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px 0px 0px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    filter: blur(7px);
+    transition: width 4s, height 3s, rotate 3s, filter 1s;
+
+}
+
+img:hover {
+    filter: blur(0px);
+    width: 300px;
+    height: 300px;
+    rotate: 1080deg;
+}
