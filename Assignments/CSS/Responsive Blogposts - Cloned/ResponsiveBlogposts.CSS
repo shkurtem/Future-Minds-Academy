@@ -6,36 +6,25 @@
 body {
     display: grid;
     grid-template-columns: auto 1fr;
-}
-
-@media (max-width:900px) {
-    body {
-        grid-template-columns: 1fr 2fr 1fr;
-    }
-}
-
-.container {
-    height: 100vh;
 
 }
+
 
 .dgrid {
     display: grid;
 }
 
-.gridrow {
-    grid-row: 2 / 3;
-}
 
 
 aside {
     padding: 40px;
-    width: 15vw;
+    height: 90vh;
     background: #464b78;
     color: white;
     display: grid;
     text-align: end;
-    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+
 }
 
 .gridcolumn {
@@ -88,5 +77,28 @@ img {
 
 .margin50 {
     margin: 50px 0px;
+
+}
+
+
+@media (max-width:1200px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    aside {
+        height: 20vh;
+        background: #464b78;
+        color: white;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: start;
+    }
+
+    .dgrid {
+        display: block;
+    }
 
 }
