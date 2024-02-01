@@ -1,4 +1,4 @@
-|* {
+* {
     padding: 0;
     margin: 0;
 }
@@ -9,29 +9,21 @@ body {
 
 }
 
-.container {
-    height: 100vh;
-
-}
 
 .dgrid {
     display: grid;
-
 }
 
-.gridrow {
-    grid-row: 2 / 3;
-}
 
 
 aside {
     padding: 40px;
-    width: 15vw;
+    height: 90vh;
     background: #464b78;
     color: white;
     display: grid;
     text-align: end;
-    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
 
 }
 
