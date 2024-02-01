@@ -101,10 +101,11 @@ img {
         display: block;
     }
 
-    .CardButton {
+    .grid {
+        display: grid;
         justify-content: center;
-        align-items: center;
-        text-align: center;
+        font-size: x-large;
+
     }
 
 }
