@@ -49,23 +49,110 @@ img {
 }
 
 .circle:hover {
-    box-shadow: 0px 0px 34px -13px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
 }
 
 .header {
+    padding: 15px;
     display: flex;
     justify-content: space-between;
 }
 
 .headerleft {
     display: flex;
+    gap: 10px;
 }
 
 .HeaderRight {
     display: flex;
+    gap: 15px;
+}
+
+.Notification {
+    position: relative;
+}
+
+.Notifications {
+    background-color: white;
+    width: 250px;
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+
+.Notification:hover .Notifications {
+    display: block;
+}
+
+.Notifications {
+    background-color: white;
+}
+
+.Notifications p {
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.Notifications p:hover {
+    background-color: red;
+}
+
+.Notificationp {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    left: 15px;
+    border: 2px solid rgb(226, 223, 223);
+    width: 17px;
+    height: 18px;
+}
+
+input {
+    border: 2px;
+    background-color: transparent;
+    border-bottom: revert;
 }
 
 .Card {
+    display: flex;
+    justify-content: flex-start;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 280px;
+
+}
+
+.Cardg {
+    display: flex;
+    background-color: green;
+    padding: 30px;
+    margin: -10px;
+    width: 41px;
+    height: 42px;
+    transform: translateX(45px);
+}
+
+.TopLocation {
+    display: flex;
+    transform: translateX(70px);
+    margin: 15px;
+}
+
+.CountryFlags {
+    display: flex;
+    width: 20px;
+}
+
+.CountryFlags p {
+    display: flex;
+    text-align: left;
 }
