@@ -9,6 +9,16 @@ body {
     background-color: rgb(226, 223, 223);
 }
 
+.boxshadow:hover {
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
+}
+
+.bgwhite {
+    background-color: white;
+}
+
 aside {
     padding: 10px 20px;
     background: url(./assets/images/sidebar-1.jpg);
@@ -45,13 +55,7 @@ img {
     display: flex;
     border-radius: 50px;
     height: 30px;
-    background-color: white;
-}
 
-.circle:hover {
-    -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
-    -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
 }
 
 .header {
@@ -68,6 +72,7 @@ img {
 .HeaderRight {
     display: flex;
     gap: 15px;
+
 }
 
 .Notification {
@@ -75,7 +80,6 @@ img {
 }
 
 .Notifications {
-    background-color: white;
     width: 250px;
     display: none;
     position: absolute;
@@ -88,14 +92,14 @@ img {
     display: block;
 }
 
-.Notifications {
-    background-color: white;
-}
-
 .Notifications p {
     border-radius: 5px;
     padding: 10px;
 
+}
+
+.Notifications {
+    background: white;
 }
 
 .Notifications p:hover {
@@ -121,14 +125,16 @@ input {
     border-bottom: revert;
 }
 
+.dFlex {
+    display: flex;
+}
+
 .Card {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    background-color: white;
     border-radius: 5px;
     margin: 30px;
-    height: 280px;
-
 }
 
 .Cardg {
@@ -147,12 +153,34 @@ input {
     margin: 15px;
 }
 
-.CountryFlags {
-    display: flex;
-    width: 20px;
+.Fcolumn {
+    flex-direction: column;
 }
 
-.CountryFlags p {
-    display: flex;
-    text-align: left;
+.Grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 50px;
+}
+
+.imgp {
+    width: 40px;
+
+}
+
+.SpaceBetween {
+    justify-content: space-between;
+}
+
+.Gap {
+    gap: 20px;
+}
+
+.dGrid {
+    display: grid;
+}
+
+iframe {
+    width: 50vw;
+    height: 30vh;
 }

@@ -74,17 +74,20 @@
         <header>
             <div class="header">
                 <div class="headerleft">
-                    <figure class="circle">
+                    <figure class="circle boxshadow bgwhite">
                         <img src="assets/icons/header/more.svg" alt="More">
                     </figure>
                     <h2>Dashboard</h2>
                 </div>
                 <div class="HeaderRight">
-                    <form>
-                        <input type="search" id="search" placeholder="Search">
-                        <label for="search"></label>
-                    </form>
-                    <figure class="circle"><img src="assets/icons/header/search.svg" alt="search"></figure>
+                    <div>
+                        <form>
+                            <input type="search" id="search" placeholder="Search">
+                            <label for="search"></label>
+                        </form>
+                    </div>
+                    <figure class=" boxshadow circle bgwhite"><img src="assets/icons/header/search.svg" alt="search">
+                    </figure>
                     <figure><img src="assets/icons/header/headerDashboard.svg" alt="headerDashboard"></figure>
 
                     <div class="Notification">
@@ -94,7 +97,7 @@
                         <figure>
                             <img src="assets/icons/header/notifications.svg" alt="notifications">
                         </figure>
-                        <div class="Notifications">
+                        <div class="Notifications bgwhite">
                             <p>John Doe sent a message</p>
                             <p>Someone viewed your profile</p>
                             <p>John Doe sent a message </p>
@@ -108,38 +111,109 @@
         </header>
         <main>
             <div>
-                <section class="Card">
-                    <figure class="Cardg">
-                        <img src="assets/icons/cards/language.svg" alt="language">
-                    </figure>
-                    <article>
-                        <div class="TopLocation">
-                            <h1>
-                                Globel Sales by Top Locations
-                            </h1>
+                <section class="Card bgwhite">
+                    <div class="dFlex">
+                        <figure class="Cardg">
+                            <img src="assets/icons/cards/language.svg" alt="language">
+                        </figure>
+                        <article>
+                            <div class="TopLocation">
+                                <h1>
+                                    Globel Sales by Top Locations
+                                </h1>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="Grid Gap">
+                        <div class=" dFlex Fcolumn ">
+                            <div class="dFlex SpaceBetween">
+                                <div class="dFlex">
+                                    <figure class="imgp"><img src="assets/flags/us.svg" alt="USA"></figure>
+                                    <p>USA</p>
+                                </div>
+                                <div class="dFlex Gap">
+                                    <p>2.920</p>
+                                    <p> 53.23%</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="dFlex Gap">
+                                <div class="dFlex ">
+                                    <figure class="imgp"><img src="assets/flags/germany.svg" alt="Germany"></figure>
+                                    <p>Germany</p>
+                                </div>
+                                <div class="dFlex Gap">
+                                    <p>900</p>
+                                    <p>43.10%</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="dFlex SpaceBetween">
+                                <div class="dFlex">
+                                    <figure class="imgp"><img src="assets/flags/albania.svg" alt="albania"></figure>
+                                    <p>Albania </p>
+                                </div>
+                                <div class="dFlex Gap">
+                                    <p>690</p>
+                                    <p> 10.35% </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="dFlex SpaceBetween">
+                                <div class="dFlex">
+                                    <figure class="imgp"><img src="assets/flags/kosovo.svg" alt="kosovo"></figure>
+                                    <p>Kosovo </p>
+                                </div>
+                                <div class="dFlex Gap">
+                                    <p>600</p>
+                                    <p>7.87%</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="dFlex SpaceBetween">
+                                <div class="dFlex">
+                                    <figure class="imgp"><img src="assets/flags/italy.svg" alt="Italy"></figure>
+                                    <p>Italy </p>
+                                </div>
+                                <div class="dFlex Gap">
+                                    <p> 760 </p>
+                                    <p>5.94% </p>
+                                </div>
+                            </div>
                         </div>
-                    </article>
-                    <div class="CountryFlags">
+                        <div class="">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23500.622585216777!2d21.556918309470117!3d42.58548255265896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354e96f0bd40699%3A0x986565e6eb98b1bf!2sKamenica!5e0!3m2!1sen!2s!4v1707407264393!5m2!1sen!2s"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class=" bgwhite">
                         <div>
-                            <figure><img src="assets/flags/us.svg" alt="USA"></figure>
-                            <p>USA </p>
-                            <p>2.920 53.23%</p>
-                            <hr>
-                            <figure><img src="assets/flags/germany.svg" alt="germany"></figure>
-                            <p>Germany </p>
-                            <p> 1.300 4.34%</p>
-                            <hr>
-                            <figure><img src="assets/flags/albania.svg" alt="albania"></figure>
-                            <p>Albania </p>
-                            <p>690 10.35% </p>
-                            <hr>
-                            <figure><img src="assets/flags/kosovo.svg" alt="kosovo"></figure>
-                            <p>Kosovo </p>
-                            <p>600 7.87%</p>
-                            <hr>
-                            <figure><img src="assets/flags/italy.svg" alt="Italy"></figure>
-                            <p>Italy </p>
-                            <p> 760 5.94% </p>
+                            <div class="">
+                                <figure>
+                                    <img src="assets/icons/cards/couch.svg" alt="couch">
+                                </figure>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Booking</p>
+                                <h1>184</h1>
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div>
+                                <figure>
+                                    <img src="assets/icons/cards/warning.svg" alt="warning">
+                                </figure>
+                            </div>
+                            <div>
+                                <p>Get more space</p>
+                            </div>
                         </div>
 
                     </div>
