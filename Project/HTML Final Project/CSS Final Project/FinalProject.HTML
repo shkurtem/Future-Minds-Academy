@@ -12,13 +12,15 @@
 <body>
     <aside>
         <div>
-            <div class="dgcolum">
+            <div class="dgcolum ">
                 <h1>
                     CP COOL PAGE</h1>
             </div>
             <hr>
-            <div class="dgcolum">
-                <img src="assets/images/avatar.jpg" alt="Avatar" width="40px">
+            <div class="asideimg">
+                <div class="dgcolum">
+                    <img src="assets/images/avatar.jpg" alt="Avatar" width="40px">
+                </div>
                 <p>John Doe</p>
                 <img src="assets/icons/asides/expandMore.svg" alt="expandMore">
             </div>
@@ -69,51 +71,54 @@
                 <p>Calender</p>
                 <img src="assets/icons/asides/expandMore.svg" alt="expandMore">
             </div>
+        </div>
     </aside>
-    <div>
+    <div class="Scroll">
         <header>
-            <div class="header">
-                <div class="headerleft">
-                    <figure class="circle boxshadow bgwhite">
-                        <img src="assets/icons/header/more.svg" alt="More">
-                    </figure>
-                    <h2>Dashboard</h2>
-                </div>
-                <div class="HeaderRight">
-                    <div>
-                        <form>
-                            <input type="search" id="search" placeholder="Search">
-                            <label for="search"></label>
-                        </form>
-                    </div>
-                    <figure class=" boxshadow circle bgwhite"><img src="assets/icons/header/search.svg" alt="search">
-                    </figure>
-                    <figure><img src="assets/icons/header/headerDashboard.svg" alt="headerDashboard"></figure>
-
-                    <div class="Notification">
-                        <div class="Notificationp">
-                            <p> 5 </p>
-                        </div>
-                        <figure>
-                            <img src="assets/icons/header/notifications.svg" alt="notifications">
+            <div class="Contener">
+                <div class="header">
+                    <div class="headerleft">
+                        <figure class="circle boxshadow bgwhite">
+                            <img src="assets/icons/header/more.svg" alt="More">
                         </figure>
-                        <div class="Notifications bgwhite">
-                            <p>John Doe sent a message</p>
-                            <p>Someone viewed your profile</p>
-                            <p>John Doe sent a message </p>
-                            <p>Someone viewed your profile</p>
-                            <p>Another notifications</p>
-                        </div>
+                        <h2>Dashboard</h2>
                     </div>
-                    <figure><img src="assets/icons/header/headerAvatar.svg" alt="headerAvatar"></figure>
+                    <div class="HeaderRight">
+                        <div>
+                            <form>
+                                <input type="search" id="search" placeholder="Search">
+                                <label for="search"></label>
+                            </form>
+                        </div>
+                        <figure class=" boxshadow circle bgwhite"><img src="assets/icons/header/search.svg"
+                                alt="search">
+                        </figure>
+                        <figure><img src="assets/icons/header/headerDashboard.svg" alt="headerDashboard"></figure>
+
+                        <div class="Notification">
+                            <div class="Notificationp">
+                                <p> 5 </p>
+                            </div>
+                            <figure>
+                                <img src="assets/icons/header/notifications.svg" alt="notifications">
+                            </figure>
+                            <div class="Notifications bgwhite">
+                                <p>John Doe sent a message</p>
+                                <p>Someone viewed your profile</p>
+                                <p>John Doe sent a message </p>
+                                <p>Someone viewed your profile</p>
+                                <p>Another notifications</p>
+                            </div>
+                        </div>
+                        <figure><img src="assets/icons/header/headerAvatar.svg" alt="headerAvatar"></figure>
+                    </div>
                 </div>
-            </div>
         </header>
         <main>
-            <div>
+            <div class=" Padding">
                 <section class="Card bgwhite">
                     <div class="dFlex">
-                        <figure class="Cardg">
+                        <figure class="Cardb cgreen">
                             <img src="assets/icons/cards/language.svg" alt="language">
                         </figure>
                         <article>
@@ -189,40 +194,187 @@
                         </div>
                     </div>
                 </section>
-                <section>
-                    <div class=" bgwhite">
-                        <div>
-                            <div class="">
-                                <figure>
-                                    <img src="assets/icons/cards/couch.svg" alt="couch">
-                                </figure>
+                <div>
+                    <section class="dGrid dgcolum1 Gap Padding3">
+                        <div class="Card dFlex bgwhite">
+                            <div class="dFlex SpaceBetween">
+                                <div class="Cardb corange">
+                                    <figure>
+                                        <img src="assets/icons/cards/couch.svg" alt="couch">
+                                    </figure>
+                                </div>
+                                <div class="TopLocation">
+                                    <div class="dFlex Fcolumn">
+                                        <p>Booking</p>
+                                        <h1>184</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div>
+                                <div>
+                                    <figure>
+                                        <img src="assets/icons/cards/warning.svg" alt="warning">
+                                    </figure>
+                                </div>
+                                <div>
+                                    <p>Get more space</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="Card dFlex bgwhite">
+                            <div class="dFlex SpaceBetween">
+                                <div class="Cardb cpink">
+                                    <figure>
+                                        <img src="assets/icons/cards/equalizer.svg" alt="equalizer">
+                                    </figure>
+                                </div>
+                                <div class="TopLocation">
+                                    <div class="dFlex Fcolumn">
+                                        <p>Website Visits</p>
+                                        <h1>75.521</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div>
+                                <div>
+                                    <figure>
+                                        <img src="assets/icons/cards/tracked.svg" alt="tracked">
+                                    </figure>
+                                </div>
+                                <div>
+                                    <p>Tracked from Google Anlystics</p>
+                                </div>
                             </div>
                         </div>
-                        <div>
-                            <div>
-                                <p>Booking</p>
-                                <h1>184</h1>
+                        <div class="Card dFlex bgwhite">
+                            <div class="dFlex SpaceBetween">
+                                <div class="Cardb cgreen">
+                                    <figure>
+                                        <img src="assets/icons/cards/storefront.svg" alt="storefront">
+                                    </figure>
+                                </div>
+                                <div class="TopLocation">
+                                    <div class="dFlex Fcolumn">
+                                        <p>Revenue</p>
+                                        <h1>$34,245</h1>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <hr>
-                        <div>
+                            <hr>
+
                             <div>
-                                <figure>
-                                    <img src="assets/icons/cards/warning.svg" alt="warning">
-                                </figure>
+                                <div>
+                                    <figure>
+                                        <img src="assets/icons/cards/calendar.svg" alt="calendar">
+                                    </figure>
+                                </div>
+                                <div>
+                                    <p>Last 24 Hours</p>
+                                </div>
                             </div>
-                            <div>
-                                <p>Get more space</p>
-                            </div>
+
                         </div>
 
+                        <div class="Card dFlex bgwhite">
+                            <div class="dFlex SpaceBetween">
+                                <div class="Cardb cblue">
+                                    <figure>
+                                        <img src="assets/icons/cards/public.svg" alt="public">
+                                    </figure>
+                                </div>
+                                <div class="TopLocation">
+                                    <div class="dFlex Fcolumn">
+                                        <p>Followers</p>
+                                        <h1>+245</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div>
+                                <div>
+                                    <figure>
+                                        <img src="assets/icons/cards/update.svg" alt="Updated">
+                                    </figure>
+                                </div>
+                                <div>
+                                    <p>Just Updated</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+            <div>
+                <section>
+                    <div>
+                        <h1>
+                            Manage Listings
+                        </h1>
+                    </div>
+                    <div class="dGrid dgcolum3 ">
+                        <div class="bgwhite">
+
+                            <img src="assets/images/card-1.jpeg" alt="card-1">
+                            <h3>Cozy 5 Stars Apartment</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At impedit tempore numquam
+                                repudiandae dolorum qui, et, iste nihil quis voluptatem ad expedita mollitia obcaecati
+                                maxime! Tempore quis ullam eos officia.</p>
+                            <hr>
+                            <div class="SpaceBetween">
+                                <p>$899/night</p>
+                                <img src="assets/icons/cards/location.svg" alt="Locations">
+                                <p>Barcelona, Spain</p>
+                            </div>
+                        </div>
+                        <div class="bgwhite">
+                            <img src="assets/images/card-2.jpeg" alt="card-2">
+                            <h3>Office Studio</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui non magni
+                                veritatis
+                                alias sed dignissimos vel sit praesentium mollitia in soluta quam nesciunt dolores,
+                                excepturi quaerat, tenetur sint ipsum Lorem ipsum dolor, sit amet consectetur
+                                adipisicing
+                                elit. </p>
+                            <hr>
+                            <div class="dFlex SpaceBetween">
+                                <p>$1.119/night</p>
+                                <img src="assets/icons/cards/location.svg" alt="Locations">
+                                <p>London ,UK</p>
+                            </div>
+                        </div>
+                        <div class="bgwhite">
+                            <img src="assets/images/card-3.jpeg" alt="card-3">
+                            <h3>Beautiful Castle</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat excepturi, sed quae
+                                explicabo officia iusto nisi, ipsum quasi voluptatem esse similique quidem. Minima neque
+                                tempore consectetur architecto assumenda beatae adipisci. Lorem ipsum dolor sit, amet
+                                consectetur adipisicing.</p>
+                            <hr>
+                            <div class="dFlex SpaceBetween">
+                                <p>$459/night</p>
+                                <div>
+                                    <img src="assets/icons/cards/location.svg" alt="Locations">
+                                    <p>Milan, Italy</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>
-        </main>
     </div>
-
-
+    </main>
+    <div>
+        <footer></footer>
+    </div>
+    </div>
 </body>
 
 </html>

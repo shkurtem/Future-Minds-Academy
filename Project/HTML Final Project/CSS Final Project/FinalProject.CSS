@@ -7,6 +7,35 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     background-color: rgb(226, 223, 223);
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Global */
+
+.Contener {
+    padding: 20px 30px;
+
+}
+
+.SpaceBetween {
+    justify-content: space-between;
+}
+
+.Gap {
+    gap: 30px;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.dGrid {
+    display: grid;
+}
+
+.Fcolumn {
+    flex-direction: column;
 }
 
 .boxshadow:hover {
@@ -19,16 +48,51 @@ body {
     background-color: white;
 }
 
+.Cardb {
+    display: flex;
+    padding: 15px;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-40px);
+    justify-content: center;
+}
+
+.cgreen {
+    background-color: green;
+}
+
+.corange {
+    background-color: orange;
+}
+
+.cpink {
+    background-color: darkmagenta;
+}
+
+.cblue {
+    background-color: skyblue;
+}
+
+.dgcolum1 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.margin5 {
+    margin: 5px;
+}
+
+/* aside */
+
 aside {
-    padding: 10px 20px;
     background: url(./assets/images/sidebar-1.jpg);
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: color;
     color: white;
+    overflow-y: scroll;
 }
 
-img {
+.asideimg {
     margin: 5px;
     border-radius: 50%;
 }
@@ -51,6 +115,7 @@ img {
 }
 
 
+/* Header */
 .circle {
     display: flex;
     border-radius: 50px;
@@ -125,36 +190,31 @@ input {
     border-bottom: revert;
 }
 
-.dFlex {
-    display: flex;
+/* div */
+.Scroll {
+    overflow-y: scroll;
 }
+
+.Padding {
+    padding: 10px 10px;
+    margin: 50px 50px;
+}
+
+/* Main */
 
 .Card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     border-radius: 5px;
-    margin: 30px;
-}
+    padding: 10px;
 
-.Cardg {
-    display: flex;
-    background-color: green;
-    padding: 30px;
-    margin: -10px;
-    width: 41px;
-    height: 42px;
-    transform: translateX(45px);
+
 }
 
 .TopLocation {
     display: flex;
-    transform: translateX(70px);
     margin: 15px;
-}
-
-.Fcolumn {
-    flex-direction: column;
 }
 
 .Grid {
@@ -168,19 +228,16 @@ input {
 
 }
 
-.SpaceBetween {
-    justify-content: space-between;
-}
-
-.Gap {
-    gap: 20px;
-}
-
-.dGrid {
-    display: grid;
-}
-
 iframe {
     width: 50vw;
     height: 30vh;
+}
+
+.Padding3 {
+    padding: 35px;
+    gap: 40px;
+}
+
+.dgcolum3 {
+    grid-template-columns: 1fr 1fr 1fr;
 }
