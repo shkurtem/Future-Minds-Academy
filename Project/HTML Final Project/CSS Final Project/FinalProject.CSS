@@ -339,6 +339,29 @@ iframe {
         margin: 15px 0px 90px;
     }
 
+    .Grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    .Gap {
+        gap: 65px;
+    }
+
+    .marginy90 {
+        margin: 40px 0px;
+    }
+
+
+
+    .dgcolum3 {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media(max-width:600px) {
