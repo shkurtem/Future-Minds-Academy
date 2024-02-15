@@ -380,4 +380,8 @@ iframe {
         grid-template-columns: 1fr;
     }
 
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
 }
