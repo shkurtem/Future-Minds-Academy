@@ -48,6 +48,8 @@ body {
     background-color: white;
 }
 
+
+
 .Cardb {
     display: flex;
     padding: 15px;
@@ -192,6 +194,10 @@ aside {
 
 }
 
+.cwhite {
+    color: white;
+}
+
 .Notification {
     position: relative;
 }
@@ -213,10 +219,12 @@ aside {
     border-radius: 5px;
     padding: 10px;
 
+
 }
 
 .Notifications p:hover {
     background-color: red;
+    color: white;
 }
 
 .Notificationp {
