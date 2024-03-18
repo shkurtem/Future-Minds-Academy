@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="./progresbar.css" />
+</head>
+
+<body>
+    <div class="progress-bar-container">
+        <span class="indicator">0%</span>
+        <div class="progress-bar-wrapper">
+            <div id="bar" class="progress-bar"></div>
+        </div>
+        <span class="indicator">100%</span>
+    </div>
+
+    <script>
+        let percentage = parseInt(prompt("what is the progress?"));
+
+        if (isNaN(percentage) || percentage < 0 || percentage > 100)
+            throw new Error("Write a valid percentage!");
+
+        let color;
+        if (percentage <= 20) color = "darkred";
+        else if (percentage <= 50) color = "yellow";
+        else if (percentage <= 80) color = "orange";
+        else color = "green";
+
+        let progressbar = document.getElementById("bar");
+        progressbar.style.backgroundColor = color;
+        progressbar.style.width = `${percentage}%`;
+        progressbar.setAttribute("title", `${percentage}`);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //input
+        var a = parseFloat(prompt("Enter the first number:"));
+        var b = parseFloat(prompt("Enter the second number:"));
+        var c = parseFloat(prompt("Enter the third number:"));
+
+        //logic
+        var largest = a;
+
+        if (b > largest) {
+            largest = b;
+        }
+
+        if (c > largest) {
+            largest = c;
+        }
+
+        //output
+        console.log("The largest number is: " + largest);
+    </script>
+
+</body>
+
+</html>
