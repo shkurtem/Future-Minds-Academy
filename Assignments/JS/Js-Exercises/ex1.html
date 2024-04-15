@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide Show Me</title>
+</head>
+<style>
+    .card {
+        width: 400px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .shadow {
+        box-shadow: rgba(0, 0, 0, 3.35) 0px 5px 15px;
+    }
+
+    .hideCard {
+        visibility: hidden;
+    }
+
+    .showCard {
+        visibility: visible;
+    }
+</style>
+
+<body>
+    <div class="card">
+        <h1>Welcomen to my card</h1>
+        <img width="300" src="xhami.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo neque aliquid rerum ratione cum non.</p>
+    </div>
+    <input type="checkbox" id="addShadow" name="addShadow" value="1" onclick="addRemoveShadow()">
+    <label for="addShadow">Add Shadow</label>
+    <a href="javascript: hideShowMe();">Hide Me</a>
+
+    <script>
+        const card = document.querySelector(".card");
+        const addShadow = document.querySelector("#addShadow");
+        const showHideBtn = document.querySelector('a');
+
+        let state = true;
+
+        function hideShowMe() {
+
+            if (addShadow.checked) {
+                card.classList.add('hideCard');
+                showHideBtn.innerHTML = 'Show me';
+                state = false;
+            }
+            else {
+                card.classList.remove('hideCard');
+                showHideBtn.innerHTML = 'Hide me';
+                state = true;
+            }
+        }
+        function addRemoveShadow() {
+            if (!addshadow.checkd) {
+                card.classList.add('shadow');
+            }
+            else {
+                card.classList.remove('shadow')
+            }
+        }
+    </script>
+
+</body>
+
+</html>

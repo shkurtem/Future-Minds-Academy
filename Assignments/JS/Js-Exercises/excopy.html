@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide Show Me</title>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Welcomen to my card</h1>
+        <img width="300" src="xhami.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo neque aliquid rerum ratione cum non.</p>
+    </div>
+    <a href="javascript: hideShowMe();">Hide Me</a>
+
+    <script>
+        const card = document.querySelector(".card");
+        const showHideBtn = document.querySelector('a');
+
+        let state = true;
+
+        function hideShowMe() {
+
+            if (state) {
+                card.style.visibility = "hidden";
+                showHideBtn.innerHTML = 'Show me';
+                state = false;
+            }
+            else {
+                card.style.visibility = "visible";
+                showHideBtn.innerHTML = 'Hide me';
+                state = true;
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
